@@ -1296,7 +1296,7 @@ class Tag(PageElement):
                 'Final combinator "%s" is missing an argument.' % tokens[-1])
 
         if self._select_debug:
-            print 'Running CSS selector "%s"' % selector
+            print ('Running CSS selector "%s"' % selector)
 
         for index, token_group in enumerate(tokens):
             new_context = []
